@@ -566,55 +566,6 @@ Text Label 1350 6650 0    50   ~ 0
 BOOT0
 Text Label 2500 6650 2    50   ~ 0
 BOOT1
-$Comp
-L Connector:Conn_01x05_Male J?
-U 1 1 5E493377
-P 1300 5800
-F 0 "J?" H 1150 5800 50  0000 R CNN
-F 1 "Conn_01x05_Male" V 1200 6100 50  0000 R CNN
-F 2 "" H 1300 5800 50  0001 C CNN
-F 3 "~" H 1300 5800 50  0001 C CNN
-	1    1300 5800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 5E49340B
-P 1100 5450
-F 0 "#PWR?" H 1100 5300 50  0001 C CNN
-F 1 "VCC" H 1117 5623 50  0000 C CNN
-F 2 "" H 1100 5450 50  0001 C CNN
-F 3 "" H 1100 5450 50  0001 C CNN
-	1    1100 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1100 5600 1100 5450
-Wire Wire Line
-	1200 5600 1200 5350
-Wire Wire Line
-	1300 5600 1300 5350
-Wire Wire Line
-	1400 5600 1400 5350
-$Comp
-L power:GND #PWR?
-U 1 1 5E4A87D6
-P 1500 5450
-F 0 "#PWR?" H 1500 5200 50  0001 C CNN
-F 1 "GND" H 1505 5277 50  0000 C CNN
-F 2 "" H 1500 5450 50  0001 C CNN
-F 3 "" H 1500 5450 50  0001 C CNN
-	1    1500 5450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1500 5600 1500 5450
-Text Label 1200 5350 3    50   ~ 0
-DIO
-Text Label 1300 5350 3    50   ~ 0
-DCLK
-Text Label 1400 5350 3    50   ~ 0
-R
 Wire Wire Line
 	8200 4350 8500 4350
 Text Label 8500 4350 2    50   ~ 0
@@ -700,17 +651,6 @@ F 3 "~" H 9150 4850 50  0001 C CNN
 	1    9150 4850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Power_Protection:USBLC6-2SC6 U?
-U 1 1 5E530E7D
-P 9700 4150
-F 0 "U?" H 9950 4550 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 9300 4550 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8950 4550 50  0001 C CNN
-F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 9900 4500 50  0001 C CNN
-	1    9700 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10450 2800 10450 3000
 Wire Wire Line
@@ -769,19 +709,6 @@ Wire Wire Line
 	8850 4250 8850 4150
 Wire Wire Line
 	8850 4150 8200 4150
-Wire Wire Line
-	9700 3350 9700 3650
-$Comp
-L power:VCC #PWR?
-U 1 1 5E520873
-P 9700 3350
-F 0 "#PWR?" H 9700 3200 50  0001 C CNN
-F 1 "VCC" H 9717 3523 50  0000 C CNN
-F 2 "" H 9700 3350 50  0001 C CNN
-F 3 "" H 9700 3350 50  0001 C CNN
-	1    9700 3350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Regulator_Linear:AMS1117-3.3 U?
 U 1 1 5E5C30A6
@@ -845,7 +772,7 @@ Connection ~ 9750 2350
 Wire Wire Line
 	10350 2800 10350 2900
 Wire Wire Line
-	10350 2900 9300 2900
+	10350 2900 9700 2900
 Wire Wire Line
 	9300 2900 9300 2350
 Wire Wire Line
@@ -868,4 +795,71 @@ Wire Wire Line
 	9300 2350 9300 1950
 Wire Wire Line
 	9600 2350 9750 2350
+$Comp
+L Power_Protection:USBLC6-2SC6 U?
+U 1 1 5E530E7D
+P 9700 4150
+F 0 "U?" H 9950 4550 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 9300 4550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8950 4550 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 9900 4500 50  0001 C CNN
+	1    9700 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 3650 9700 2900
+Connection ~ 9700 2900
+Wire Wire Line
+	9700 2900 9300 2900
+$Comp
+L power:GND #PWR?
+U 1 1 5E5F5DB3
+P 2450 6000
+F 0 "#PWR?" H 2450 5750 50  0001 C CNN
+F 1 "GND" V 2455 5872 50  0000 R CNN
+F 2 "" H 2450 6000 50  0001 C CNN
+F 3 "" H 2450 6000 50  0001 C CNN
+	1    2450 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 6000 2450 6000
+Wire Wire Line
+	2000 5900 2450 5900
+Wire Wire Line
+	2000 5800 2450 5800
+$Comp
+L power:VCC #PWR?
+U 1 1 5E605111
+P 2450 5600
+F 0 "#PWR?" H 2450 5450 50  0001 C CNN
+F 1 "VCC" H 2467 5773 50  0000 C CNN
+F 2 "" H 2450 5600 50  0001 C CNN
+F 3 "" H 2450 5600 50  0001 C CNN
+	1    2450 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5600 2450 5700
+Wire Wire Line
+	2450 5700 2000 5700
+Wire Wire Line
+	2000 6100 2450 6100
+Text Label 2450 6100 0    50   ~ 0
+R
+Text Label 2450 5900 0    50   ~ 0
+DCLK
+Text Label 2450 5800 0    50   ~ 0
+DIO
+$Comp
+L LoRaWAN_lib:STLink_conn J?
+U 1 1 5E61F628
+P 1750 5900
+F 0 "J?" H 1806 6325 50  0000 C CNN
+F 1 "STLink_conn" H 1806 6234 50  0000 C CNN
+F 2 "" H 1750 5900 50  0001 C CNN
+F 3 "" H 1750 5900 50  0001 C CNN
+	1    1750 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
