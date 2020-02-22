@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name main_pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/main_pcb-rescue.lib)(options "")(descr ""))
+  (lib (name LoRa)(type Legacy)(uri D:/projKiCAD/LoraWAN_pcb/LoRaWAN_lib.lib)(options "")(descr ""))
+)
