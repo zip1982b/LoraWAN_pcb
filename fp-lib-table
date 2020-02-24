@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name RHF78_footprint)(type KiCad)(uri ${LORAWAN_LIB}/lib/RHF78_footprint)(options "")(descr ""))
+)
