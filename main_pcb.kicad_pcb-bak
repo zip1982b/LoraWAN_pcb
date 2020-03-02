@@ -2595,7 +2595,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-223-3_TabPin2 (layer F.Cu) (tedit 58CE4E7E) (tstamp 5E5BDFB3)
-    (at 92.329 144.018)
+    (at 192.786 103.124)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (path /5E5C30A6)
