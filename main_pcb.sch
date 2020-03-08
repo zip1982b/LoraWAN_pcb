@@ -1255,10 +1255,6 @@ F 3 "~" H 2600 6650 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	1600 6500 2450 6500
-Wire Wire Line
-	1600 6600 2400 6600
-Wire Wire Line
 	2400 6600 2400 6650
 Wire Wire Line
 	2400 6650 2450 6650
@@ -1579,21 +1575,9 @@ spi1_miso
 Text Label 4050 6100 0    50   ~ 0
 spi1_mosi
 Wire Wire Line
-	5600 3850 6900 3850
-Wire Wire Line
-	6900 3950 5600 3950
-Wire Wire Line
 	5600 4050 6900 4050
 Wire Wire Line
 	5600 4150 6900 4150
-Wire Wire Line
-	5600 4250 6900 4250
-Wire Wire Line
-	6900 4350 5600 4350
-Wire Wire Line
-	5600 4450 6900 4450
-Wire Wire Line
-	6900 4550 5600 4550
 NoConn ~ 2350 2950
 NoConn ~ 2350 3050
 NoConn ~ 4200 2850
@@ -1708,4 +1692,68 @@ Wire Wire Line
 	3550 750  4200 750 
 Wire Wire Line
 	3650 850  4200 850 
+Wire Wire Line
+	6900 4250 6000 4250
+Wire Wire Line
+	6000 4250 6000 4550
+Wire Wire Line
+	6000 4550 5600 4550
+Wire Wire Line
+	5600 4250 5850 4250
+Wire Wire Line
+	5850 4250 5850 4600
+Wire Wire Line
+	5850 4600 6400 4600
+Wire Wire Line
+	6400 4600 6400 4550
+Wire Wire Line
+	6400 4550 6900 4550
+Wire Wire Line
+	5600 4450 6400 4450
+Wire Wire Line
+	6400 4450 6400 4350
+Wire Wire Line
+	6400 4350 6900 4350
+Wire Wire Line
+	6450 4450 6450 4400
+Wire Wire Line
+	6450 4400 5750 4400
+Wire Wire Line
+	5750 4400 5750 4350
+Wire Wire Line
+	5750 4350 5600 4350
+Wire Wire Line
+	6450 4450 6900 4450
+Wire Wire Line
+	5600 3850 6550 3850
+Wire Wire Line
+	6550 3850 6550 3950
+Wire Wire Line
+	6550 3950 6900 3950
+Wire Wire Line
+	6900 3850 6650 3850
+Wire Wire Line
+	6650 3850 6650 3900
+Wire Wire Line
+	6650 3900 6100 3900
+Wire Wire Line
+	6100 3900 6100 3950
+Wire Wire Line
+	6100 3950 5600 3950
+Wire Wire Line
+	1600 6500 2250 6500
+Wire Wire Line
+	2250 6500 2250 6600
+Wire Wire Line
+	2250 6600 2400 6600
+Wire Wire Line
+	2450 6500 2350 6500
+Wire Wire Line
+	2350 6500 2350 6550
+Wire Wire Line
+	2350 6550 2000 6550
+Wire Wire Line
+	2000 6550 2000 6600
+Wire Wire Line
+	2000 6600 1600 6600
 $EndSCHEMATC
