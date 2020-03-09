@@ -19,7 +19,7 @@ U 1 1 5E47AF2D
 P 7600 3250
 F 0 "U1" H 7600 3250 50  0000 C CNN
 F 1 "STM32F103C8Tx" H 7600 3150 50  0000 C CNN
-F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 7000 1850 50  0001 R CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 7000 1850 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 7600 3250 50  0001 C CNN
 	1    7600 3250
 	1    0    0    -1  
@@ -1159,17 +1159,6 @@ $EndComp
 Wire Wire Line
 	1000 3850 800  3850
 $Comp
-L Connector_Generic:Conn_02x03_Top_Bottom J3
-U 1 1 5E71B824
-P 1450 6000
-F 0 "J3" H 1500 6317 50  0000 C CNN
-F 1 "Conn_02x03_Top_Bottom" H 1500 6226 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 1450 6000 50  0001 C CNN
-F 3 "~" H 1450 6000 50  0001 C CNN
-	1    1450 6000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR02
 U 1 1 5E71C780
 P 900 5800
@@ -1181,26 +1170,20 @@ F 3 "" H 900 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 6100 900  6100
-Wire Wire Line
 	900  6100 900  6000
-Wire Wire Line
-	1250 5900 1100 5900
 Connection ~ 900  5900
 Wire Wire Line
 	900  5900 900  5800
-Wire Wire Line
-	1250 6000 900  6000
 Connection ~ 900  6000
 Wire Wire Line
 	900  6000 900  5900
 Text Label 1750 4900 0    50   ~ 0
 3v3_STLink
-Text Label 1750 5900 0    50   ~ 0
+Text Label 2150 5900 0    50   ~ 0
 3v3_STLink
 Text Label 10250 1950 0    50   ~ 0
 AMS1117_3v3
-Text Label 1750 6000 0    50   ~ 0
+Text Label 2150 6000 0    50   ~ 0
 AMS1117_3v3
 $Comp
 L Connector:Conn_01x04_Male J2
@@ -1230,7 +1213,7 @@ F 3 "" H 2150 6700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 6700 2150 6700
-Text Label 1750 6100 0    50   ~ 0
+Text Label 2150 6100 0    50   ~ 0
 UART_FW
 $Comp
 L Device:R R2
@@ -1756,4 +1739,27 @@ Wire Wire Line
 	2000 6550 2000 6600
 Wire Wire Line
 	2000 6600 1600 6600
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J3
+U 1 1 5E6867AD
+P 1500 6000
+F 0 "J3" H 1550 6317 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1550 6226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1500 6000 50  0001 C CNN
+F 3 "~" H 1500 6000 50  0001 C CNN
+	1    1500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 5900 1300 5900
+Wire Wire Line
+	900  6000 1300 6000
+Wire Wire Line
+	900  6100 1300 6100
+Wire Wire Line
+	1800 5900 2150 5900
+Wire Wire Line
+	1800 6000 2150 6000
+Wire Wire Line
+	1800 6100 2150 6100
 $EndSCHEMATC
