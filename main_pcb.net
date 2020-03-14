@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:\Electro\plate\LoraWAN_pcb\main_pcb.sch)
-    (date "14.03.2020 21:50:00")
+    (date "14.03.2020 22:10:11")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
