@@ -19,7 +19,7 @@ U 1 1 5E47AF2D
 P 7600 3250
 F 0 "U1" H 7600 3250 50  0000 C CNN
 F 1 "STM32F103C8Tx" H 7600 3150 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 7000 1850 50  0001 R CNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 7000 1850 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 7600 3250 50  0001 C CNN
 	1    7600 3250
 	1    0    0    -1  
@@ -740,7 +740,7 @@ $Comp
 L Power_Protection:USBLC6-2SC6 U3
 U 1 1 5E530E7D
 P 9700 4150
-F 0 "U3" H 9950 4550 50  0000 C CNN
+F 0 "U3" H 9950 4550 50  0000 C CIN
 F 1 "USBLC6-2SC6" H 9300 4550 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 8950 4550 50  0001 C CNN
 F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 9900 4500 50  0001 C CNN
@@ -1734,7 +1734,7 @@ U 1 1 5E6867AD
 P 1500 6000
 F 0 "J3" H 1550 6317 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 1550 6226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1500 6000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 1500 6000 50  0001 C CNN
 F 3 "~" H 1500 6000 50  0001 C CNN
 	1    1500 6000
 	1    0    0    -1  
@@ -1752,12 +1752,12 @@ Wire Wire Line
 Wire Wire Line
 	1800 6100 2150 6100
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
+L Connector_Generic:Conn_02x03_Odd_Even J4
 U 1 1 5E6F7C0A
 P 1450 7250
-F 0 "J?" H 1500 7567 50  0000 C CNN
+F 0 "J4" H 1500 7567 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 1500 7476 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1450 7250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 1450 7250 50  0001 C CNN
 F 3 "~" H 1450 7250 50  0001 C CNN
 	1    1450 7250
 	1    0    0    -1  
