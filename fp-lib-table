@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name RHF78_footprint)(type KiCad)(uri ${KIPRJMOD}/lib/RHF78_footprint)(options "")(descr ""))
   (lib (name U_FL_smd)(type KiCad)(uri ${KIPRJMOD}/lib)(options "")(descr ""))
+  (lib (name LoraWAN_pcb)(type KiCad)(uri ${KIPRJMOD}/LoraWAN_pcb.pretty)(options "")(descr ""))
 )

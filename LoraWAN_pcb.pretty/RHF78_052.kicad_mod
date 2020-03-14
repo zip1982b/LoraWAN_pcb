@@ -1,0 +1,178 @@
+(module RHF78_footprint:RHF78_052 (layer F.Cu) (tedit 5E5411F7)
+  (fp_text reference D2 (at -0.254 0.635) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value RHF78-052 (at -0.508 -15.113) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -7.9375 -11.684) (end -7.239 -11.1125) (layer F.SilkS) (width 0.15))
+  (fp_line (start -11.684 -13.843) (end -11.684 14.224) (layer F.SilkS) (width 0.15))
+  (fp_line (start -11.684 14.224) (end 11.43 14.224) (layer F.SilkS) (width 0.15))
+  (fp_line (start 11.43 -13.843) (end 11.43 14.224) (layer F.SilkS) (width 0.15))
+  (fp_line (start -11.684 -13.843) (end 11.43 -13.843) (layer F.SilkS) (width 0.15))
+  (pad 20 smd custom (at 5.8405 14.224) (size 1.2 3) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 19 smd custom (at 3.8405 14.224) (size 1.2 3) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 18 smd custom (at 1.8405 14.224) (size 1.2 3) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 17 smd custom (at -0.1595 14.224) (size 1.2 3) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 16 smd custom (at -2.1595 14.224) (size 1.2 3) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 15 smd custom (at -4.1595 14.224) (size 1.2 3) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 14 smd custom (at -6.1595 14.224) (size 1.2 3) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 33 smd custom (at 11.43 -11.808) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 32 smd custom (at 11.4935 -9.808) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 31 smd custom (at 11.43 -7.808) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 30 smd custom (at 11.43 -5.808) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 29 smd custom (at 11.43 -3.808) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 28 smd custom (at 11.43 -1.808) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 27 smd custom (at 11.43 0.192) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 26 smd custom (at 11.43 2.192) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 25 smd custom (at 11.43 4.192) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 24 smd custom (at 11.43 6.192) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 23 smd custom (at 11.43 8.192) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 22 smd custom (at 11.43 10.192) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 21 smd custom (at 11.43 12.192) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 13 smd custom (at -11.684 12.2144) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 12 smd custom (at -11.684 10.2144) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 11 smd custom (at -11.684 8.2144) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 10 smd custom (at -11.684 6.2144) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 9 smd custom (at -11.684 4.2144) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 8 smd custom (at -11.684 2.2144) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 7 smd custom (at -11.684 0.2144) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 6 smd custom (at -11.684 -1.7856) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 5 smd custom (at -11.684 -3.7856) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 4 smd custom (at -11.684 -5.7856) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 3 smd custom (at -11.684 -7.7856) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 2 smd custom (at -11.684 -9.7856) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 1 smd custom (at -11.684 -11.7856) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+)
