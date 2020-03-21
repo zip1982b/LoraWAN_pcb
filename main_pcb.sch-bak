@@ -332,47 +332,7 @@ Wire Wire Line
 Text Label 6750 2650 0    50   ~ 0
 C13
 Wire Wire Line
-	7400 1750 7400 1550
-Text Label 7400 1550 3    50   ~ 0
-3VB
-$Comp
-L Device:R R12
-U 1 1 5E4967CF
-P 6300 1750
-F 0 "R12" H 6230 1704 50  0000 R CNN
-F 1 "100K" H 6230 1795 50  0000 R CNN
-F 2 "LoraWAN_pcb:R_0805_HandSoldering" V 6230 1750 50  0001 C CNN
-F 3 "~" H 6300 1750 50  0001 C CNN
-	1    6300 1750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
 	6900 2150 6300 2150
-Wire Wire Line
-	6300 2150 6300 1900
-Wire Wire Line
-	6300 1600 6300 1450
-Text Label 6300 1450 0    50   ~ 0
-BOOT0
-$Comp
-L Device:R R11
-U 1 1 5E49ADA8
-P 5650 3000
-F 0 "R11" H 5720 3046 50  0000 L CNN
-F 1 "100K" H 5720 2955 50  0000 L CNN
-F 2 "LoraWAN_pcb:R_0805_HandSoldering" V 5580 3000 50  0001 C CNN
-F 3 "~" H 5650 3000 50  0001 C CNN
-	1    5650 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 3250 5650 3250
-Wire Wire Line
-	5650 3250 5650 3150
-Wire Wire Line
-	5650 2850 5650 2650
-Text Label 5650 2650 3    50   ~ 0
-BOOT1
 $Comp
 L power:VCC #PWR022
 U 1 1 5E49EC09
@@ -475,74 +435,6 @@ Wire Wire Line
 Wire Wire Line
 	8300 1650 8300 1450
 Connection ~ 8300 1450
-$Comp
-L power:VCC #PWR03
-U 1 1 5E484B37
-P 900 7100
-F 0 "#PWR03" H 900 6950 50  0001 C CNN
-F 1 "VCC" H 917 7273 50  0000 C CNN
-F 2 "" H 900 7100 50  0001 C CNN
-F 3 "" H 900 7100 50  0001 C CNN
-	1    900  7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR08
-U 1 1 5E484B71
-P 2050 7100
-F 0 "#PWR08" H 2050 6950 50  0001 C CNN
-F 1 "VCC" H 2067 7273 50  0000 C CNN
-F 2 "" H 2050 7100 50  0001 C CNN
-F 3 "" H 2050 7100 50  0001 C CNN
-	1    2050 7100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 7100 2050 7150
-Wire Wire Line
-	2050 7150 1750 7150
-Wire Wire Line
-	1250 7150 900  7150
-Wire Wire Line
-	900  7150 900  7100
-Wire Wire Line
-	1750 7250 2050 7250
-Wire Wire Line
-	1250 7250 900  7250
-$Comp
-L power:GND #PWR09
-U 1 1 5E48C591
-P 2050 7400
-F 0 "#PWR09" H 2050 7150 50  0001 C CNN
-F 1 "GND" H 2055 7227 50  0000 C CNN
-F 2 "" H 2050 7400 50  0001 C CNN
-F 3 "" H 2050 7400 50  0001 C CNN
-	1    2050 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5E48C5C4
-P 900 7400
-F 0 "#PWR04" H 900 7150 50  0001 C CNN
-F 1 "GND" H 905 7227 50  0000 C CNN
-F 2 "" H 900 7400 50  0001 C CNN
-F 3 "" H 900 7400 50  0001 C CNN
-	1    900  7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 7350 2050 7350
-Wire Wire Line
-	2050 7350 2050 7400
-Wire Wire Line
-	1250 7350 900  7350
-Wire Wire Line
-	900  7350 900  7400
-Text Label 900  7250 0    50   ~ 0
-BOOT0
-Text Label 2050 7250 2    50   ~ 0
-BOOT1
 $Comp
 L Device:R R18
 U 1 1 5E4EDE0D
@@ -1174,17 +1066,6 @@ Text Label 10250 1950 0    50   ~ 0
 AMS1117_3v3
 Text Label 2150 6000 0    50   ~ 0
 AMS1117_3v3
-$Comp
-L Connector:Conn_01x04_Male J2
-U 1 1 5E527507
-P 1400 6500
-F 0 "J2" H 1508 6781 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 1508 6690 50  0000 C CNN
-F 2 "LoraWAN_pcb:Pin_Header_Straight_1x04_Pitch2.54mm" H 1400 6500 50  0001 C CNN
-F 3 "~" H 1400 6500 50  0001 C CNN
-	1    1400 6500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1600 6400 2100 6400
 Text Label 2100 6400 0    50   ~ 0
@@ -1546,10 +1427,6 @@ Text Label 4050 6000 0    50   ~ 0
 spi1_miso
 Text Label 4050 6100 0    50   ~ 0
 spi1_mosi
-Wire Wire Line
-	5600 4050 6900 4050
-Wire Wire Line
-	5600 4150 6900 4150
 NoConn ~ 2350 2950
 NoConn ~ 2350 3050
 NoConn ~ 4200 2850
@@ -1564,21 +1441,6 @@ NoConn ~ 8200 3950
 NoConn ~ 8200 4050
 NoConn ~ 8200 4550
 NoConn ~ 8200 3150
-$Comp
-L main_pcb-rescue:Conn_01x09_Male-Connector J12
-U 1 1 5E56B4D1
-P 5400 4250
-F 0 "J12" H 5506 4828 50  0000 C CNN
-F 1 "Conn_01x09_Male" H 5506 4737 50  0000 C CNN
-F 2 "LoraWAN_pcb:Pin_Header_Straight_1x09_Pitch2.54mm" H 5400 4250 50  0001 C CNN
-F 3 "~" H 5400 4250 50  0001 C CNN
-	1    5400 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 4650 6100 4650
-Text Label 6100 4650 0    50   ~ 0
-3VB
 $Comp
 L power:VCC #PWR024
 U 1 1 5E709BCC
@@ -1619,32 +1481,8 @@ Wire Wire Line
 Connection ~ 1100 5900
 Wire Wire Line
 	1100 5900 900  5900
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 5E7BA05E
-P 10950 3550
-F 0 "#FLG02" H 10950 3625 50  0001 C CNN
-F 1 "PWR_FLAG" H 10950 3724 50  0000 C CNN
-F 2 "" H 10950 3550 50  0001 C CNN
-F 3 "~" H 10950 3550 50  0001 C CNN
-	1    10950 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10750 2800 10750 3000
-$Comp
-L power:GND #PWR030
-U 1 1 5E7ECF4A
-P 10950 3800
-F 0 "#PWR030" H 10950 3550 50  0001 C CNN
-F 1 "GND" H 10955 3627 50  0000 C CNN
-F 2 "" H 10950 3800 50  0001 C CNN
-F 3 "" H 10950 3800 50  0001 C CNN
-	1    10950 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10950 3800 10950 3550
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J11
 U 1 1 5E5EB66E
@@ -1664,54 +1502,6 @@ Wire Wire Line
 	3550 750  4200 750 
 Wire Wire Line
 	3650 850  4200 850 
-Wire Wire Line
-	6900 4250 6000 4250
-Wire Wire Line
-	6000 4250 6000 4550
-Wire Wire Line
-	6000 4550 5600 4550
-Wire Wire Line
-	5600 4250 5850 4250
-Wire Wire Line
-	5850 4250 5850 4600
-Wire Wire Line
-	5850 4600 6400 4600
-Wire Wire Line
-	6400 4600 6400 4550
-Wire Wire Line
-	6400 4550 6900 4550
-Wire Wire Line
-	5600 4450 6400 4450
-Wire Wire Line
-	6400 4450 6400 4350
-Wire Wire Line
-	6400 4350 6900 4350
-Wire Wire Line
-	6450 4450 6450 4400
-Wire Wire Line
-	6450 4400 5750 4400
-Wire Wire Line
-	5750 4400 5750 4350
-Wire Wire Line
-	5750 4350 5600 4350
-Wire Wire Line
-	6450 4450 6900 4450
-Wire Wire Line
-	5600 3850 6550 3850
-Wire Wire Line
-	6550 3850 6550 3950
-Wire Wire Line
-	6550 3950 6900 3950
-Wire Wire Line
-	6900 3850 6650 3850
-Wire Wire Line
-	6650 3850 6650 3900
-Wire Wire Line
-	6650 3900 6100 3900
-Wire Wire Line
-	6100 3900 6100 3950
-Wire Wire Line
-	6100 3950 5600 3950
 Wire Wire Line
 	1600 6500 2250 6500
 Wire Wire Line
@@ -1752,14 +1542,105 @@ Wire Wire Line
 Wire Wire Line
 	1800 6100 2150 6100
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J4
-U 1 1 5E6F7C0A
-P 1450 7250
-F 0 "J4" H 1500 7567 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 1500 7476 50  0000 C CNN
-F 2 "LoraWAN_pcb:Pin_Header_Straight_2x03_Pitch2.54mm" H 1450 7250 50  0001 C CNN
-F 3 "~" H 1450 7250 50  0001 C CNN
-	1    1450 7250
+L Connector:Conn_01x04_Male J2
+U 1 1 5E527507
+P 1400 6500
+F 0 "J2" H 1508 6781 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 1508 6690 50  0000 C CNN
+F 2 "LoraWAN_pcb:Pin_Header_Straight_1x04_Pitch2.54mm" H 1400 6500 50  0001 C CNN
+F 3 "~" H 1400 6500 50  0001 C CNN
+	1    1400 6500
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5E8430A3
+P 6300 3250
+F 0 "#PWR04" H 6300 3000 50  0001 C CNN
+F 1 "GND" V 6305 3122 50  0000 R CNN
+F 2 "" H 6300 3250 50  0001 C CNN
+F 3 "" H 6300 3250 50  0001 C CNN
+	1    6300 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E860735
+P 6300 1750
+F 0 "#PWR03" H 6300 1500 50  0001 C CNN
+F 1 "GND" V 6305 1622 50  0000 R CNN
+F 2 "" H 6300 1750 50  0001 C CNN
+F 3 "" H 6300 1750 50  0001 C CNN
+	1    6300 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6300 1750 6300 2150
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5E89A804
+P 11000 2750
+F 0 "#FLG02" H 11000 2825 50  0001 C CNN
+F 1 "PWR_FLAG" H 11000 2924 50  0000 C CNN
+F 2 "" H 11000 2750 50  0001 C CNN
+F 3 "~" H 11000 2750 50  0001 C CNN
+	1    11000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 2750 11000 3150
+Wire Wire Line
+	11000 3150 10750 3150
+Wire Wire Line
+	10750 3150 10750 3000
+$Comp
+L Device:R R11
+U 1 1 5E8B90DD
+P 6650 3250
+F 0 "R11" H 6720 3296 50  0000 L CNN
+F 1 "5K" H 6720 3205 50  0000 L CNN
+F 2 "LoraWAN_pcb:R_0805_HandSoldering" V 6580 3250 50  0001 C CNN
+F 3 "~" H 6650 3250 50  0001 C CNN
+	1    6650 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 3250 6800 3250
+Wire Wire Line
+	6500 3250 6300 3250
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5E786532
+P 6000 4350
+F 0 "J4" H 6108 4631 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6108 4540 50  0000 C CNN
+F 2 "LoraWAN_pcb:Pin_Header_Straight_1x03_Pitch2.54mm" H 6000 4350 50  0001 C CNN
+F 3 "~" H 6000 4350 50  0001 C CNN
+	1    6000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4250 6900 4250
+Wire Wire Line
+	6900 4350 6200 4350
+Wire Wire Line
+	6200 4450 6900 4450
+$Comp
+L Connector:Conn_01x01_Male J12
+U 1 1 5E7F6D37
+P 7400 1250
+F 0 "J12" V 7462 1294 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 7553 1294 50  0000 L CNN
+F 2 "LoraWAN_pcb:Pin_Header_Straight_1x01_Pitch2.54mm" H 7400 1250 50  0001 C CNN
+F 3 "~" H 7400 1250 50  0001 C CNN
+	1    7400 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 1450 7400 1750
+NoConn ~ 6900 3850
+NoConn ~ 6900 3950
+NoConn ~ 6900 4050
+NoConn ~ 6900 4150
+NoConn ~ 6900 4550
 $EndSCHEMATC
