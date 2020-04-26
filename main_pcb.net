@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:\Electro\plate\LoraWAN_pcb\main_pcb.sch)
-    (date "24.04.2020 7:33:41")
+    (date "26.04.2020 12:16:00")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -23,7 +23,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5E47AF2D))
     (comp (ref D2)
-      (value RHF78-052)
+      (value RHF78-052-RF_Module)
       (footprint LoraWAN_pcb:RHF78_052)
       (libsource (lib main_pcb-rescue) (part RHF78-052-RF_Module) (description ""))
       (sheetpath (names /) (tstamps /))
